@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 200px;
+    background: peachpuff;
+}
+
+h1 , a {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+#banner {
+    height: 350px;
+    background-image: url("fondo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    display: flex;
+    align-items: center;
+    padding: 0 200px;
+}
+
+#banner > div {
+    width: 300px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 16px;
+    box-shadow: rgba(110, 106, 110, 0.75);
+}
+
+#banner > div h2{
+    color: peachpuff;
+    font-size: 40PX;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75); 
+}
+
+#servicios {
+    width: 1300px;
+    padding: 27px;
+    align-items: center;
+    text-align: center;
+}
+
+#servicios > div  {
+    justify-content: space-around;
+    display: flex;
+    padding: 50px;
+}
+
+#servicios > div > div > p {
+    justify-content: space-around;
+    margin-left: 16px;
+    padding: 16px;
+}
+
+#a {
+    width: 50px; 
+    height: 50px;
+    margin-left: 16px;
+    background-image: url("images.png");
+    text-emphasis-color: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
